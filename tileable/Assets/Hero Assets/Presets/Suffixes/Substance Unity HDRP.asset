@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a40b19fab7b643b4988fa5a09fba45b2, type: 3}
+  m_Name: Substance Unity HDRP
+  m_EditorClassIdentifier: HeroAssets.VertexPainter.Editor::HeroAssets.HeroAssetsSuffixPreset
+  displayName: Substance Unity HDRP
+  description: Naming convention al exportar de Substance usando el Preset Unity
+    HDRP.
+  isBuiltIn: 1
+  sortOrder: 1
+  suffixes:
+    baseColor: _BaseColor
+    normal: _Normal
+    unityMaskMap: _MaskMap
+    height: _Height
+    arm: _ARM
+    orm: _ORM
+    metallic: _Metallic
+    ao: _Occlusion
+    smoothness: _Smoothness
+    roughness: _Roughness
